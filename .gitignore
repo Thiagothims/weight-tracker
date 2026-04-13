@@ -1,0 +1,56 @@
+# ========================
+# Backend — Java / Maven
+# ========================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.class
+backend/*.jar
+backend/*.war
+
+# Gerados pelo openapi-generator
+backend/src/main/java/com/weighttracker/api/generated/
+
+# ========================
+# Frontend — Node / Vite
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Gerados pelo orval
+frontend/src/api/generated/
+
+# ========================
+# Variáveis de ambiente
+# ========================
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ========================
+# IDEs e editores
+# ========================
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ========================
+# Sistema operacional
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
